@@ -19,7 +19,7 @@ def main():
             print(f'The downloaded title is: {entry.title}')
             print(f'The download link is: {entry.link}')
 
-            qbt_client = qbittorrentapi.Client(host=HOST, port=PORT,
+            qbt_client = qbittorrentapi.Client(host='192.168.1.184', port=PORT,
                                                username=USERNAME, password=PASSWORD)
             try:
                 qbt_client.auth_log_in()
