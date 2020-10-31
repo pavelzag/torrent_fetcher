@@ -3,8 +3,9 @@ import feedparser
 import qbittorrentapi
 
 PIRATE_BAY_BASE_URL = 'https://www.pirate-bay.net/search?q='
-SEARCH_STRING = 'discovery'
+
 TPB_RSS = 'https://tpb.party/rss/top100/205'
+SEARCH_STRING = os.getenv('SEARCH_STRING')
 HOST = os.getenv('HOST')
 PORT = os.getenv('PORT')
 USERNAME = os.getenv('USERNAME')
