@@ -18,7 +18,10 @@ def main():
         if SEARCH_STRING in entry.title.lower():
             print(f'The downloaded title is: {entry.title}')
             print(f'The download link is: {entry.link}')
-
+            print(f'The username is: {USERNAME}')
+            print(f'The password is: {PASSWORD}')
+            print(f'The host is: {HOST}')
+            print(f'The port is: {PORT}')
             qbt_client = qbittorrentapi.Client(host='192.168.1.184', port=PORT,
                                                username=USERNAME, password=PASSWORD)
             try:
