@@ -5,7 +5,7 @@ import qbittorrentapi
 PIRATE_BAY_BASE_URL = 'https://www.pirate-bay.net/search?q='
 
 # TPB_RSS = 'https://tpb.party/rss/top100/205'
-TPB_RSS = 'https://tpb.party/rss/top100/207'
+TPB_RSS = 'https://tpb.party/rss/top100/208'
 SEARCH_STRING = os.getenv('SEARCH_STRING')
 HOST = os.getenv('HOST')
 PORT = os.getenv('PORT')
